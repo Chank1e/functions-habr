@@ -12,4 +12,8 @@ describe('factorial test', () => {
   it('should return 40320 for 8', () => {
     expect(factorial(8)).toEqual(40320);
   });
+
+  it('should return 0 for non-integer', () => {
+    expect(factorial(false)).toEqual(0);
+  });
 });

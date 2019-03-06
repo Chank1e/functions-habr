@@ -9,12 +9,15 @@ describe('isPrime test', () => {
     expect(isPrime(29)).toBeTruthy();
   });
 
-
   it('should return false for 1', () => {
     expect(isPrime(1)).toBeFalsy();
   });
 
   it('should return false for 0', () => {
     expect(isPrime(0)).toBeFalsy();
+  });
+
+  it('should return false for non-integer', () => {
+    expect(isPrime(true)).toBeFalsy();
   });
 });

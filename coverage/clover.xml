@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1551880611343" clover="3.2.0">
+  <project timestamp="1551880611343" name="All files">
+    <metrics statements="64" coveredstatements="64" conditionals="58" coveredconditionals="58" methods="11" coveredmethods="11" elements="133" coveredelements="133" complexity="0" loc="64" ncloc="64" packages="1" files="11" classes="11"/>
+    <file name="factorial.js" path="/home/chank1e/Desktop/fucks/src/easy/factorial.js">
+      <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <line num="2" count="13" type="cond" truecount="2" falsecount="0"/>
+      <line num="3" count="12" type="cond" truecount="2" falsecount="0"/>
+      <line num="4" count="9" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+    </file>
+    <file name="fib.js" path="/home/chank1e/Desktop/fucks/src/easy/fib.js">
+      <metrics statements="4" coveredstatements="4" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+      <line num="2" count="13" type="cond" truecount="2" falsecount="0"/>
+      <line num="3" count="12" type="cond" truecount="4" falsecount="0"/>
+      <line num="4" count="9" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+    </file>
+    <file name="filter.js" path="/home/chank1e/Desktop/fucks/src/easy/filter.js">
+      <metrics statements="5" coveredstatements="5" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+      <line num="2" count="4" type="cond" truecount="4" falsecount="0"/>
+      <line num="4" count="2" type="stmt"/>
+      <line num="5" count="9" type="cond" truecount="2" falsecount="0"/>
+      <line num="7" count="2" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+    </file>
+    <file name="indexOf.js" path="/home/chank1e/Desktop/fucks/src/easy/indexOf.js">
+      <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <line num="2" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="4" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+    </file>
+    <file name="isBalanced.js" path="/home/chank1e/Desktop/fucks/src/easy/isBalanced.js">
+      <metrics statements="9" coveredstatements="9" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
+      <line num="2" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="3" count="5" type="stmt"/>
+      <line num="4" count="5" type="stmt"/>
+      <line num="5" count="48" type="cond" truecount="2" falsecount="0"/>
+      <line num="6" count="40" type="cond" truecount="2" falsecount="0"/>
+      <line num="7" count="7" type="cond" truecount="2" falsecount="0"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="12" count="4" type="stmt"/>
+      <line num="15" count="1" type="stmt"/>
+    </file>
+    <file name="isPalindrome.js" path="/home/chank1e/Desktop/fucks/src/easy/isPalindrome.js">
+      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="2" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="4" count="3" type="stmt"/>
+      <line num="5" count="3" type="stmt"/>
+      <line num="8" count="3" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+    </file>
+    <file name="isPrime.js" path="/home/chank1e/Desktop/fucks/src/easy/isPrime.js">
+      <metrics statements="7" coveredstatements="7" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
+      <line num="2" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="3" count="4" type="cond" truecount="4" falsecount="0"/>
+      <line num="4" count="2" type="stmt"/>
+      <line num="5" count="14" type="cond" truecount="2" falsecount="0"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+    </file>
+    <file name="isSorted.js" path="/home/chank1e/Desktop/fucks/src/easy/isSorted.js">
+      <metrics statements="7" coveredstatements="7" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+      <line num="2" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="3" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="5" count="2" type="stmt"/>
+      <line num="6" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="7" count="5" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+    </file>
+    <file name="missing.js" path="/home/chank1e/Desktop/fucks/src/easy/missing.js">
+      <metrics statements="9" coveredstatements="9" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
+      <line num="2" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="3" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="4" count="4" type="stmt"/>
+      <line num="5" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="7" count="3" type="stmt"/>
+      <line num="8" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="9" count="2" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="17" count="1" type="stmt"/>
+    </file>
+    <file name="reduce.js" path="/home/chank1e/Desktop/fucks/src/easy/reduce.js">
+      <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <line num="2" count="3" type="cond" truecount="4" falsecount="0"/>
+      <line num="4" count="2" type="stmt"/>
+      <line num="5" count="8" type="stmt"/>
+      <line num="7" count="2" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+    </file>
+    <file name="reverse.js" path="/home/chank1e/Desktop/fucks/src/easy/reverse.js">
+      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="2" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="4" count="2" type="stmt"/>
+      <line num="5" count="20" type="stmt"/>
+      <line num="7" count="2" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>

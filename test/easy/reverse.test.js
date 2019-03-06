@@ -8,4 +8,8 @@ describe('reverse test', () => {
   it('should return "kaljhsdjhlkasdlhj for "jhldsaklhjdshjlak"', () => {
     expect(reverse('jhldsaklhjdshjlak')).toEqual('kaljhsdjhlkasdlhj');
   });
+
+  it('should return undefined for non-string', () => {
+    expect(reverse(false)).toBeUndefined();
+  });
 });

@@ -20,4 +20,8 @@ describe('missing test', () => {
   it('should return undefined for [1, 2, 3, 4]', () => {
     expect(missing([1, 2, 3, 4])).toBeUndefined();
   });
+
+  it('should return undefined for non-array', () => {
+    expect(missing('true')).toBeUndefined();
+  });
 });

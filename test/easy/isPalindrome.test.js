@@ -12,4 +12,8 @@ describe('isPalindrome test', () => {
   it('should return true for "A man a plan a canal Panama"', () => {
     expect(isPalindrome('A man a plan a canal Panama')).toBeTruthy();
   });
+
+  it('should return false for non-string', () => {
+    expect(isPalindrome(false)).toBeFalsy();
+  });
 });

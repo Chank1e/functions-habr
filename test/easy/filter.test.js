@@ -8,4 +8,12 @@ describe('filter test', () => {
   it('should return [2,4,6] for [2,3,4,6,9] with a => a % 2 === 0', () => {
     expect(filter([2, 3, 4, 6, 9], a => a % 2 === 0)).toEqual([2, 4, 6]);
   });
+
+  it('should return empty array for invalid parameters(1)', () => {
+    expect(filter(false, a => a % 2 === 0)).toEqual([]);
+  });
+
+  it('should return empty array for invalid parameters(2)', () => {
+    expect(filter(false, 'asd')).toEqual([]);
+  });
 });

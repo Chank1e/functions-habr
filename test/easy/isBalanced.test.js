@@ -20,4 +20,8 @@ describe('isBalanced test', () => {
   it('should return false for "foo { bar { baz }"', () => {
     expect(isBalanced('foo { bar { baz }')).toBeFalsy();
   });
+
+  it('should return false for non-string', () => {
+    expect(isBalanced(false)).toBeFalsy();
+  });
 });

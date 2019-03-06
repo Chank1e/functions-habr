@@ -12,4 +12,8 @@ describe('isSorted test', () => {
   it('should return true for [-Infinity, -5, 0, 3, 9]', () => {
     expect(isSorted([-Infinity, -5, 0, 3, 9])).toBeTruthy();
   });
+
+  it('should return false for non-array', () => {
+    expect(isSorted(true)).toBeFalsy();
+  });
 });
